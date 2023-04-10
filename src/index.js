@@ -10,7 +10,7 @@ function handleJournalForm() {
   const newEntry = new Entry(newText);
   const wordCount = newEntry.wordCount();
   const vowelCount = newEntry.vowelCount();
-  const consonantCount = newEntry.vowelCount();
+  const consonantCount = newEntry.consonantCount();
   const newTeaser = newEntry.getTeaser();
   const outputArray = [wordCount, vowelCount, consonantCount, newTeaser];
   outputArray.forEach(element => {
